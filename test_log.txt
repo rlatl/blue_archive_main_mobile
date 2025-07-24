@@ -1,0 +1,28 @@
+[2025-07-25 03:08:24] ==== Run 1/2 ====
+[2025-07-25 03:08:24] --- Start test: notice ---
+[2025-07-25 03:09:02] --- Start test: momo ---
+[2025-07-25 03:09:13] --- Start test: mission ---
+[2025-07-25 03:09:25] --- Start test: bluepy ---
+[2025-07-25 03:09:36] --- Start test: cafe ---
+[2025-07-25 03:09:54] --- Start test: lesson ---
+[2025-07-25 03:10:09] --- Start test: students ---
+[2025-07-25 03:10:26] --- Start test: formation ---
+[2025-07-25 03:10:37] --- Start test: social ---
+[2025-07-25 03:10:48] --- Start test: crafting ---
+[2025-07-25 03:11:00] --- Start test: shop ---
+[2025-07-25 03:11:11] --- Start test: recruit ---
+[2025-07-25 03:11:22] ==== Run 1 complete ====
+[2025-07-25 03:11:22] ==== Run 2/2 ====
+[2025-07-25 03:11:22] --- Start test: notice ---
+[2025-07-25 03:16:57] ==== Run 1/2 ====
+[2025-07-25 03:16:57] --- Start test: cafe ---
+[2025-07-25 03:17:22] --- Start test: lesson ---
+[2025-07-25 03:17:35] --- Start test: students ---
+[2025-07-25 03:17:54] --- Start test: formation ---
+[2025-07-25 03:18:03] Recovery success: main screen detected
+[2025-07-25 03:18:09] formation: close image not found, attempting recovery...
+[2025-07-25 03:18:09] Recovery success: main screen detected
+[2025-07-25 03:18:09] --- Start test: social ---
+[2025-07-25 03:18:27] ==== Run 1/2 ====
+[2025-07-25 03:18:27] --- Start test: cafe ---
+[2025-07-25 03:18:51] --- Start test: lesson ---
