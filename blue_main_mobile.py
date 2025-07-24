@@ -18,7 +18,7 @@ with open(CONFIG_PATH, "r", encoding="utf-8") as f:
     config = json.load(f)
 
 REPEAT = config["settings"].get("repeat", 3)
-SLOW_DELAY = config["settings"].get("slow_case_delay", 8)
+SLOW_DELAY = config["settings"].get("slow_case_delay", 9)
 NORMAL_DELAY = config["settings"].get("normal_case_delay", 5)
 
 # 경로
@@ -145,7 +145,7 @@ def run_tests_from(start_idx=0):
 
 # CLI 진입점
 if __name__ == "__main__":
-    start_index = 4
+    start_index = 0
     run_tests_from(start_index)
 
 

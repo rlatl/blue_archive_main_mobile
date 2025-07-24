@@ -26,3 +26,60 @@
 [2025-07-25 03:18:27] ==== Run 1/2 ====
 [2025-07-25 03:18:27] --- Start test: cafe ---
 [2025-07-25 03:18:51] --- Start test: lesson ---
+[2025-07-25 07:03:56] ==== Run 1/2 ====
+[2025-07-25 07:03:56] --- Start test: notice ---
+[2025-07-25 07:04:48] ==== Run 1/2 ====
+[2025-07-25 07:04:48] --- Start test: notice ---
+[2025-07-25 07:05:25] --- Start test: momo ---
+[2025-07-25 07:05:38] --- Start test: mission ---
+[2025-07-25 07:06:04] ==== Run 1/2 ====
+[2025-07-25 07:06:04] --- Start test: notice ---
+[2025-07-25 07:06:49] ==== Run 1/2 ====
+[2025-07-25 07:06:49] --- Start test: notice ---
+[2025-07-25 07:08:15] ==== Run 1/2 ====
+[2025-07-25 07:08:15] --- Start test: notice ---
+[2025-07-25 07:08:52] --- Start test: momo ---
+[2025-07-25 07:09:05] --- Start test: mission ---
+[2025-07-25 07:09:18] --- Start test: bluepy ---
+[2025-07-25 07:09:31] --- Start test: cafe ---
+[2025-07-25 07:09:52] --- Start test: lesson ---
+[2025-07-25 07:10:05] --- Start test: students ---
+[2025-07-25 07:11:10] ==== Run 1/2 ====
+[2025-07-25 07:11:10] --- Start test: notice ---
+[2025-07-25 07:11:49] --- Start test: momo ---
+[2025-07-25 07:12:02] --- Start test: mission ---
+[2025-07-25 07:12:15] --- Start test: bluepy ---
+[2025-07-25 07:12:28] --- Start test: cafe ---
+[2025-07-25 07:12:48] --- Start test: lesson ---
+[2025-07-25 07:12:58] Recovery success: main screen detected
+[2025-07-25 07:13:04] lesson: close image not found, attempting recovery...
+[2025-07-25 07:13:04] Recovery success: main screen detected
+[2025-07-25 07:13:04] --- Start test: students ---
+[2025-07-25 07:14:16] ==== Run 1/2 ====
+[2025-07-25 07:14:16] --- Start test: notice ---
+[2025-07-25 07:14:55] --- Start test: momo ---
+[2025-07-25 07:15:08] --- Start test: mission ---
+[2025-07-25 07:15:21] --- Start test: bluepy ---
+[2025-07-25 07:15:34] --- Start test: cafe ---
+[2025-07-25 07:15:55] --- Start test: lesson ---
+[2025-07-25 07:16:09] --- Start test: students ---
+[2025-07-25 07:16:27] --- Start test: formation ---
+[2025-07-25 07:16:40] --- Start test: social ---
+[2025-07-25 07:16:54] --- Start test: crafting ---
+[2025-07-25 07:17:07] --- Start test: shop ---
+[2025-07-25 07:17:21] --- Start test: recruit ---
+[2025-07-25 07:17:35] ==== Run 1 complete ====
+[2025-07-25 07:17:35] ==== Run 2/2 ====
+[2025-07-25 07:17:35] --- Start test: notice ---
+[2025-07-25 07:18:10] --- Start test: momo ---
+[2025-07-25 07:18:23] --- Start test: mission ---
+[2025-07-25 07:18:36] --- Start test: bluepy ---
+[2025-07-25 07:18:50] --- Start test: cafe ---
+[2025-07-25 07:19:11] --- Start test: lesson ---
+[2025-07-25 07:19:24] --- Start test: students ---
+[2025-07-25 07:19:43] --- Start test: formation ---
+[2025-07-25 07:19:56] --- Start test: social ---
+[2025-07-25 07:20:10] --- Start test: crafting ---
+[2025-07-25 07:20:23] --- Start test: shop ---
+[2025-07-25 07:20:37] --- Start test: recruit ---
+[2025-07-25 07:20:50] ==== Run 2 complete ====
