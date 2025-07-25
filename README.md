@@ -42,6 +42,7 @@
 - [모바일 메인 화면 테스트 자동화 시연(PC화면)](https://youtu.be/0kT3ABO_-9k)
 - [모바일 메인 화면 테스트 자동화 시연(모바일 + PC화면)](https://youtu.be/DLjhIx1R8Rc)
 
+👉 [테스트 설계 및 결과 보기 (Google Sheet)](https://docs.google.com/spreadsheets/d/1RJwQvNWn9rVNjy3hYpxLwXlS4RYEvjnUWjgHTlPDYW8/edit?usp=sharing)
 ---
 
 ## 📂 디렉토리 구조 예시
