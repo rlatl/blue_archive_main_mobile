@@ -12,13 +12,16 @@ from datetime import datetime
 auto_setup(__file__)
 connect_device("Android:///")
 
-# 설정
+# 설정(config.json에서 설정값을 받아옴)
 CONFIG_PATH = os.path.join(os.path.dirname(__file__), "config.json")
 with open(CONFIG_PATH, "r", encoding="utf-8") as f:
     config = json.load(f)
 
+#테스트 전체 반복 횟수    
 REPEAT = config["settings"].get("repeat", 3)
+#긴 대기 시간 (카페 테스트시 대기시간 9초)
 SLOW_DELAY = config["settings"].get("slow_case_delay", 9)
+#일반 대기 시간(일반 테스트시 대기시간 5초)
 NORMAL_DELAY = config["settings"].get("normal_case_delay", 5)
 
 # 경로
@@ -88,10 +91,12 @@ def run_notice_test():
     sleep(NORMAL_DELAY)
     sleep(3)
 
-    if not touch(notice1):
+    # touch 예외 방지용: exists로 먼저 확인
+    if not exists(notice1):
         write_result(case, "FAIL (notice1 not found)")
         attempt_recovery()
         return
+    touch(notice1)
 
     sleep(2)
     found = False
@@ -161,6 +166,15 @@ def run_generic_test(case):
     touch(btn_img)
     sleep(SLOW_DELAY if case == "cafe" else NORMAL_DELAY)
 
+    #카페 테스트 시 매일 04시, 16시에 갱신되는
+    #'방문 학생 목록' 창이 떴을때 확인 키를 누르고 테스트롤 계속 진행하기 위한 동작
+    if case == "cafe":
+        cafe_ok_img = Template(os.path.join(IMG_DIR, "cafe_students_list_ok.png"))
+        if exists(cafe_ok_img):
+            touch(cafe_ok_img)
+            sleep(2) 
+    
+    #타겟 이미지 검사해 PASS, FAIL 여부 판별           
     if exists(target_img):
         write_result(case, "PASS")
     else:
