@@ -65,6 +65,7 @@ blue_archive_main_mobile/
 │ ├── notice_button.png
 │ ├── momo_button.png
 │ ├── ...
+├── flowchart/             #전체 테스트 흐름도 저장 폴더
 
 ```
 
