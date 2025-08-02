@@ -6,7 +6,7 @@
 ---
 ### 📌 테스트 시나리오 흐름도
 
-![자동화 시나리오 흐름도](./flowchart/main_test_flowchart.png)
+![자동화 시나리오 흐름도](./flowchart/main_test_flowchart_0.png)
 
 ---
 
